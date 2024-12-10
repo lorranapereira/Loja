@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import ButtonStyle from '../components/ButtonStyle'; // Importe o ProductCard
 import SectionTitle from '../components/SectionTitle';
 
-const Cart = () => {
+const Cart = ({navigation}) => {
   const [cartData, setCartData] = useState([]);
 
   // Carrega os dados do carrinho ao abrir a tela

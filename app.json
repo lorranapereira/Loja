@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "quiz-tri",
-    "slug": "quiz-tri",
+    "name": "loja",
+    "slug": "loja",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +23,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "newArchEnabled": true, // Nova Arquitetura habilitada
+    "updates": {
+      "fallbackToCacheTimeout": 0 // Configuração recomendada para atualizações OTA
+    },
+    "assetBundlePatterns": [
+      "**/*" // Garante que todos os ativos sejam incluídos
+    ]
   }
 }

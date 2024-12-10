@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from './src/screens/Home';
 import Cart from './src/screens/Cart';
-import Detalhes from './src/screens/Detalhes'; // Nova página de detalhes
+import Detalhes from './src/screens/Detalhes';
 
 const Stack = createStackNavigator();
 
@@ -19,7 +19,7 @@ const App = () => {
               component={Home} 
               options={{ 
                 title: 'Página Inicial', 
-                headerShown: false // Oculta o cabeçalho para a tela Home
+                headerShown: false 
               }}
             />
             <Stack.Screen 

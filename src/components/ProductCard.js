@@ -15,7 +15,6 @@ const ProductCard = ({ product, onPress }) => {
 
 const styles = StyleSheet.create({
   card: {
-    flexDirection: 'row',
     alignItems: 'center',
     padding: 10,
     backgroundColor: '#fff',
